@@ -1,8 +1,8 @@
 {
-  "name": "Biblioteca",
-  "version": "1.0.0",
+  "name": "electron-with-create-react-app",
+  "version": "0.1.0",
   "private": true,
-  "main": "main.js",
+  "main": "src/electron-starter.js",
   "homepage": "./",
   "dependencies": {
     "convert-excel-to-json": "^1.3.0",
@@ -16,6 +16,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron":  "nf start"
+  },
+  "devDependencies": {
+    "electron": "^32.0.1",
+    "foreman": "^3.0.1"
   }
 }
